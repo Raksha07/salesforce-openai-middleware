@@ -18,3 +18,22 @@ Thumbs.db
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build artifacts (if you're compiling or bundling)
+dist/
+build/
+
+# Local environment config (if using local tooling)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: lock files if you're only using one package manager
+package-lock.json
+# or
+yarn.lock
